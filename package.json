@@ -5,6 +5,8 @@
   "main": "index.html",
   "homepage": "https://shubhzdev.github.io/unitygame-web3wallet",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "parcel index.html --open",
     "build": "parcel build ./index.html --public-url /unitygame-web3wallet --target node --bundle-node-modules --out-dir ./dist --no-minify --out-file index.html"
   },
