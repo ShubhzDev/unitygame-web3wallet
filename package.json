@@ -7,9 +7,10 @@
   "scripts": {
     "start": "parcel index.html --open",
     "build": "parcel build ./index.html --public-url /unitygame-web3wallet --target node --bundle-node-modules --out-dir ./dist --no-minify --out-file index.html"
-  }, 
+  },
   "dependencies": {
     "ethers": "5.5.1",
+    "gh-pages": "^5.0.0",
     "parcel-bundler": "^1.6.1"
   },
   "devDependencies": {
@@ -21,7 +22,7 @@
   },
   "engines": {
     "parcel": "2.x",
-    "node" : ">=16.0.0 <17.0.0"
+    "node": ">=16.0.0 <17.0.0"
   },
   "keywords": [
     "javascript",
