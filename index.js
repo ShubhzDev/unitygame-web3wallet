@@ -76,7 +76,6 @@ async function signMessage(message) {
       "Signature complete.<br><br>Copy to clipboard then continue to App",
       signature
     );
-    //window.close();
   } catch (error) {
     copyToClipboard("error");
     displayResponse("Signature Denied");
