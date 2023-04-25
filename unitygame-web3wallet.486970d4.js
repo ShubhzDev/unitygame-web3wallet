@@ -73390,4 +73390,4 @@ function displayResponse(text, response) {
   }
 }
 },{"regenerator-runtime/runtime":"KA2S","ethers":"iS6H","ethers/lib/utils":"if8b"}]},{},["Focm"], null)
-//# sourceMappingURL=/game-web3wallet/unitygame-web3wallet.486970d4.js.map
+//# sourceMappingURL=/unitygame-web3wallet/unitygame-web3wallet.486970d4.js.map
