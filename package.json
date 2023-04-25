@@ -1,12 +1,12 @@
 {
-  "name": "unitygame-web3wallet",
+  "name": "game-web3wallet",
   "version": "0.1.0",
   "private": true,
   "main": "index.html",
-  "homepage": "https://shubhzdev.github.io/unitygame-web3wallet",
+  "homepage": "https://chainsafe.github.io/game-web3wallet",
   "scripts": {
     "start": "parcel index.html --open",
-    "build": "parcel build ./index.html --public-url /unitygame-web3wallet --target node --bundle-node-modules --out-dir ./dist --no-minify --out-file index.html"
+    "build": "parcel build ./index.html --public-url /game-web3wallet --target node --bundle-node-modules --out-dir ./dist --no-minify --out-file index.html"
   }, 
   "dependencies": {
     "ethers": "5.5.1",
@@ -21,7 +21,7 @@
   },
   "engines": {
     "parcel": "2.x",
-    "node" : ">=16.0.0 <17.0.0"
+    "node" : "18.15.0"
   },
   "keywords": [
     "javascript",

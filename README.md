@@ -13,13 +13,14 @@ Link to this site to
 `yarn` to install
 `yarn start` to begin
 `yarn build` to compile
+yarn install --no-lockfile
 
 ## Verify Login
 
-| Params          | Description           |
-| --------------- | --------------------- |
-| &action=sign    | action to verify user |
-| &message=hello  | message to sign       |
+| Params         | Description           |
+| -------------- | --------------------- |
+| &action=sign   | action to verify user |
+| &message=hello | message to sign       |
 
 example to sign a message: `http://localhost:1234/?action=sign&message=helloworld`
 
