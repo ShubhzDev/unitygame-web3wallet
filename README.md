@@ -14,6 +14,7 @@ Link to this site to
 `yarn start` to begin
 `yarn build` to compile
 yarn install --no-lockfile
+npm install --package-lock-only; yarn import
 
 ## Verify Login
 
