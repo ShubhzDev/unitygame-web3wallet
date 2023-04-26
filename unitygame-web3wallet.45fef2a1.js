@@ -73351,11 +73351,7 @@ async function signMessage(message) {
       signature
     });
     // await navigator.clipboard.writeText(response);
-    // displayResponse(
-    //   "Signature complete.<br><br>Copy to clipboard then continue to App",
-    //   signature
-    // );
-    copyToClipboard(signature);
+    displayResponse("Signature complete.<br><br>Copy to clipboard then continue to App", signature);
   } catch (error) {
     copyToClipboard("error");
     displayResponse("Signature Denied");
@@ -73396,4 +73392,4 @@ function displayResponse(text, response) {
   }
 }
 },{"regenerator-runtime/runtime":"KA2S","ethers":"iS6H","ethers/lib/utils":"if8b"}]},{},["Focm"], null)
-//# sourceMappingURL=/unitygame-web3wallet/unitygame-web3wallet.6bd9e023.js.map
+//# sourceMappingURL=/unitygame-web3wallet/unitygame-web3wallet.45fef2a1.js.map
