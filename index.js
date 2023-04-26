@@ -73,11 +73,10 @@ async function signMessage(message) {
     const signature = await signer.signMessage(message);
     console.log({ signature });
     // await navigator.clipboard.writeText(response);
-    // displayResponse(
-    //   "Signature complete.<br><br>Copy to clipboard then continue to App",
-    //   signature
-    // );
-    copyToClipboard(signature);
+    displayResponse(
+      "Signature complete.<br><br>Copy to clipboard then continue to App",
+      signature
+    );
   } catch (error) {
     copyToClipboard("error");
     displayResponse("Signature Denied");
