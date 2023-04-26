@@ -73350,7 +73350,12 @@ async function signMessage(message) {
     console.log({
       signature
     });
-    displayResponse("Signature complete.<br><br>Copy to clipboard then continue to App", signature);
+    // await navigator.clipboard.writeText(response);
+    // displayResponse(
+    //   "Signature complete.<br><br>Copy to clipboard then continue to App",
+    //   signature
+    // );
+    copyToClipboard(signature);
   } catch (error) {
     copyToClipboard("error");
     displayResponse("Signature Denied");
@@ -73376,6 +73381,7 @@ async function copyToClipboard(response) {
     input.style = "visibility: hidden";
     document.getElementById("response-button").innerHTML = "Copied";
   }
+  window.close();
 }
 function displayResponse(text, response) {
   // display error or response
@@ -73390,4 +73396,4 @@ function displayResponse(text, response) {
   }
 }
 },{"regenerator-runtime/runtime":"KA2S","ethers":"iS6H","ethers/lib/utils":"if8b"}]},{},["Focm"], null)
-//# sourceMappingURL=/unitygame-web3wallet/unitygame-web3wallet.486970d4.js.map
+//# sourceMappingURL=/unitygame-web3wallet/unitygame-web3wallet.6bd9e023.js.map
